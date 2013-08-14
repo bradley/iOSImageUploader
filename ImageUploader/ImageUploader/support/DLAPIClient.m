@@ -9,7 +9,7 @@
 #import "DLAPIClient.h"
 #import "AFJSONRequestOperation.h"
 
-#define BASE_URL @"http://192.168.0.6:9292"
+#define BASE_URL @"http://localhost:9292"
 
 @implementation DLAPIClient
 

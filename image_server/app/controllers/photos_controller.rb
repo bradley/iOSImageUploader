@@ -6,8 +6,6 @@ class PhotosController < ApplicationController
   end
 
   def create
-    #render :json => { :success => true }
-
     @photo = Photo.new(params[:photo])
     if @photo.save
       render :json => {
