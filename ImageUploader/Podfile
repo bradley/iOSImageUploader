@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+
+pod 'SVProgressHUD'
+pod 'AFNetworking', :git => 'https://github.com/bradley/AFNetworking', :commit => '31494a9a2c'
+pod 'SDWebImage'
+pod 'BlocksKit'
+
